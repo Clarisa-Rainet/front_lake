@@ -2,7 +2,7 @@
   "name": "new-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://frontlake.barbo.com.br",
+  "homepage": "https://rocketit.com.br/frontlake",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
