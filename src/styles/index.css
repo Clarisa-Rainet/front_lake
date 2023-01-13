@@ -1,0 +1,1055 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Amalfi-Coast";
+  src: url(../assets/fonts/Amalfi-Coast.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url(../assets/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../assets/fonts/Montserrat-Thin.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.family-amalfi {
+  font-family: "Amalfi-Coast" !important;
+}
+
+.family-black {
+  font-family: "Montserrat-Black" !important;
+}
+
+.family-bold {
+  font-family: "Montserrat-Bold" !important;
+}
+
+.family-light {
+  font-family: "Montserrat-Light" !important;
+}
+
+.family-medium {
+  font-family: "Montserrat-Medium" !important;
+}
+
+.family-thin {
+  font-family: "Montserrat-Thin" !important;
+}
+
+
+.font-white {
+  color: #ffffff !important;
+}
+
+.font-black {
+  color: #000000 !important;
+}
+
+.font-pink {
+  color: #b40a7f !important;
+}
+
+.font-blue {
+  color: #002f65 !important;
+}
+
+.font-cream {
+  color: #d7e7bd !important;
+}
+
+.font-gray2 {
+  color: #4d4d4e !important;
+}
+
+.font-gray {
+  color: #aeaeb3 !important;
+}
+
+.font-orange {
+  color: #ff6a00 !important;
+}
+
+.font-xs {
+  font-size: 0.75rem;
+}
+
+.font-small {
+  font-size: 0.875rem;
+}
+
+.font-normal {
+  font-size: 1rem;
+}
+
+.font-medium {
+  font-size: 1.2rem;
+}
+
+.font-regular {
+  font-size: 1.6rem;
+}
+
+.font-lg {
+  font-size: 2rem;
+}
+
+.font-big {
+  font-size: 3rem;
+}
+
+
+.back-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.back-top svg {
+  color: #1a1a1a !important;
+}
+
+.box-number {
+  background: rgba(255, 255, 255, 0);
+  animation-name: box-show;
+  animation-duration: 2s;
+}
+
+.bg-galeria {
+  background: url(../assets/background/bg_galeria.png) center center no-repeat;
+  background-size: cover;
+}
+
+.bg-diferencial {
+  background: url(../assets/background/bg_diferenciais.png) center center no-repeat;
+  background-size: cover;
+}
+
+.bg-descricao {
+  background: url(../assets/background/bg_descricao.png) center no-repeat;
+  background-size: cover;
+}
+
+.bg-planta {
+  background: url(../assets/background/bg_planta.png) center no-repeat;
+  background-size: cover;
+}
+
+.bg-mapa {
+  background: url(../assets/background/bg_mapa.png) center left no-repeat;
+  background-size: cover;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-blue {
+  background-color: #061927;
+  margin-top: -20px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+
+.galeria {
+  background: url(../assets/file/galeria.png) top center no-repeat;
+  background-size: cover;
+}
+
+
+.bg-topo {
+  background: url(../assets/background/bg_topo.png) center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.definicao {
+  padding: 4rem 0 0px 10rem;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.text-topo {
+  color: #002f65;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-family: Montserrat-Bold;
+  text-align: center;
+  padding: 1rem 0rem 1rem 0rem;
+  margin-left: -14px;
+}
+
+.topo-text {
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Montserrat-Medium;
+  text-transform: uppercase;
+  top: -1px;
+  right: 690px
+}
+
+.img-topo {
+  width: 70%;
+}
+
+.rio-claro {
+  width: 60%;
+}
+
+.text-descricao {
+  color: #002f65;
+  font-size: 1.5rem;
+  font-family: Montserrat-Medium;
+  text-align: center;
+}
+
+.img-icones {
+  width: 100%;
+  padding: 30px 60px;
+}
+
+.descricao1-img {
+  width: 440px;
+}
+
+.descricao-img {
+  width: 90%;
+  padding: 1rem 4rem 0rem 10rem;
+}
+
+.img-descricao {
+  width: 70%;
+  height: 50%;
+  justify-items: center;
+  justify-content: center;
+}
+
+.descricao-box {
+  width: auto;
+  padding-left: 1030px;
+  padding-top: 30px;
+}
+
+.diferencial-box {
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+}
+
+.diferencial-box1 {
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+}
+
+.diferencial-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+
+}
+
+.diferencial-content {
+  display: flex;
+  justify-content: start;
+}
+
+.diferencial-text {
+  font-size: 1.25em;
+  color: #002f65;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  font-family: Montserrat-Bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+}
+
+.img-diferencial {
+  width: 80%;
+  padding: 1rem 4rem;
+  padding-left: 8rem;
+}
+
+.fotos-text {
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+  font-family: Montserrat-Medium;
+  text-transform: uppercase;
+}
+
+.planta-title {
+  font-size: 2.25em;
+  color: #ff6a00;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat-Bold;
+}
+
+.planta-text {
+  font-size: 1.5em;
+  color: #002f65;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat-Medium;
+  padding: 0rem 11rem 1rem 11rem;
+}
+
+.planta {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.rodape-title {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  font-family: Montserrat-Medium;
+  padding: 1rem 15rem;
+
+}
+
+.rodape-text {
+  font-size: 0.5em;
+  color: #061927;
+  text-align: center;
+  font-family: Montserrat-Medium;
+  padding: 1rem 15rem;
+}
+
+.box-planta {
+  background-color: #f0f0f0;
+  border-radius: 3rem;
+  line-height: 100%;
+  box-shadow: 0 25px 50px 10px rgb(0 0 0 / 0.25);
+}
+
+.line {
+  padding: 20px 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(255 255 255);
+  width: 55rem;
+  margin: auto;
+}
+
+.planta-info {
+  font-size: 2em;
+}
+
+.planta-attention strong {
+  font-family: "Montserrat-Bold" !important;
+}
+
+.planta-attention {
+  font-size: 1.4em;
+}
+
+.img-planta {
+  width: 80%;
+  padding: 0rem 12rem 0rem 0rem;
+}
+
+.mapa {
+  width: 100%;
+  height: 15rem;
+}
+
+.mapa-visite {
+  font-size: 2em;
+  line-height: 120%;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold";
+  bottom: 120px;
+}
+
+.mapa-whats {
+  font-size: 1.8em;
+  line-height: 120%;
+  color: white;
+  font-family: "Montserrat-Bold";
+  bottom: 80px;
+}
+
+.mapa-title {
+  font-size: 4em;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Montserrat-Medium";
+}
+
+.mapa-desc {
+  font-size: 1.8em;
+}
+
+.mapa-phone {
+  font-size: 2.4em;
+}
+
+.mapa-address {
+  font-size: 1.4em;
+  line-height: 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat-Medium";
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.img-mapa {
+  width: 100%;
+  padding: 1rem 4rem;
+}
+
+
+.mapa-text {
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat-Medium;
+  justify-content: center;
+  align-self: center;
+  padding: 4rem 0rem;
+}
+
+.text-mapa {
+  width: 30rem;
+  padding-top: 11rem;
+  padding-bottom: 6px;
+}
+
+.academia {
+  width: 40rem;
+  margin-top: 2rem;
+  height: 30rem;
+}
+
+.brinquedoteca {
+  width: 40rem;
+  margin-top: -1rem;
+  height: 30rem;
+}
+
+.quadra {
+  width: 40rem;
+  margin-top: 1rem;
+  height: 30rem;
+}
+
+.salao {
+  width: 40rem;
+  margin-top: -2rem;
+  height: 30rem;
+}
+
+.detalhe {
+  width: 5rem;
+}
+
+.button69 {
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem;
+  border-color: #a40372;
+  background-color: #a40372;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+
+.button82 {
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem;
+  border-color: #bd2d90;
+  background-color: #bd2d90;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+
+.buttonC {
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem;
+  border-color: #bd2d90;
+  background-color: #bd2d90;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+
+.buttonAB {
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem;
+  border-color: #bd2d90;
+  background-color: #bd2d90;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+
+.button69:active {
+  background-color: #bd2d90;
+}
+
+.button82:active {
+  background-color: #a40372;
+}
+
+.buttonC:active {
+  background-color: #a40372;
+}
+
+.buttonAB:active {
+  background-color: #a40372;
+}
+
+.saiba-title {
+  font-size: 4em;
+  color: #a40372;
+  font-family: Amalfi-Coast;
+}
+
+.saiba-text {
+  font-size: 1.5em;
+  color: black;
+  font-family: Montserrat-Medium;
+}
+
+.exclusivo-title {
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat-Medium;
+}
+
+.exclusivo-text {
+  font-size: 1.25em;
+  color: white;
+  text-align: center;
+  font-family: Montserrat-Medium;
+}
+
+.imgMac {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-family: Montserrat-Light;
+  border-left: 6px solid #b40a7f;
+  padding-left: 24px;
+}
+
+.title-pink strong {
+  font-family: Montserrat-Bold;
+  color: #b40a7f;
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.line-height {
+  line-height: 2rem;
+}
+
+.button-cadastro {
+  background-color: #b40a7f;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+.button-retornar {
+  background-color: #b40a7f;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.25em;
+}
+
+.bars-tecnology {
+  animation-name: slidein;
+}
+
+.btn-black:hover {
+  background: #1a1a1a;
+}
+
+.btn-pink {
+  background: #b40a7f;
+  width: 350px;
+}
+
+.btn-pink:hover {
+  background: #b40a7f;
+}
+
+.tec_dir {
+  border-top-left-radius: 16px;
+}
+
+.tec_left {
+  border-bottom-right-radius: 16px;
+}
+
+.strong {
+  font-family: Montserrat-Light;
+}
+
+.formulario {
+  background: none;
+  border: 2px solid #b40a7f;
+  border-radius: 8px;
+  padding-right: 200px;
+}
+
+.whats-message {
+  z-index: 9;
+}
+
+.whatsapp {
+  width: 5.5rem;
+}
+
+.w3-modal-content {
+  border-radius: 2em;
+}
+
+.w3-container {
+  padding: 2em 2em 0.8em;
+}
+
+.modal-cancel {
+  background-image: none;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  background-color: #EEEEEE;
+  border-color: #ECECEC;
+  border-radius: 0px;
+  border-width: 1px;
+  border-style: solid;
+  color: #CCCCCC;
+  height: 42px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0em;
+  line-height: 1;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #ff6a00 !important;
+}
+
+.splide__arrow svg {
+  fill: #ff6a00 !important;
+  justify-content: center;
+}
+
+.splide__arrow {
+  background: #ff6a00;
+  border: 0;
+  height: 10px;
+  cursor: pointer;
+  margin: 0 0.1rem;
+  padding: 0;
+  transition: background-color .2s ease, color .2s ease;
+  width: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+
+@media (max-width: 767px) {
+
+
+  @media (max-width: 420px) {
+    .bg-galeriaMobile {
+      background: url(../assets/background/bg_galeriaMobile.png) center center no-repeat;
+      background-size: cover;
+    }
+
+    .bg-diferencialMobile {
+      background: url(../assets/background/bg_diferenciaisMobile.png) center right no-repeat;
+      background-size: cover;
+    }
+
+    .bg-descricaoMobile {
+      background: url(../assets/background/bg_descricaoMobile.png) center no-repeat;
+      background-size: cover;
+    }
+
+    .bg-plantaMobile {
+      background: url(../assets/background/bg_plantaMobile.png) center no-repeat;
+      background-size: cover;
+    }
+
+    .bg-topoMobile {
+      background: url(../assets/background/bg_topoMobile.png) center left no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .bg-mapaMobile {
+      background: url(../assets/background/bg_mapaMobile.png) center left no-repeat;
+      background-size: cover;
+    }
+
+    .rodape-title {
+      padding: 1rem 1rem;
+    }
+
+    .rodape-text {
+      padding: 1rem 1rem;
+    }
+
+    .definicao {
+      padding: 2rem 2rem 0rem 2rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text-topo {
+      color: #002f65;
+      text-transform: uppercase;
+      font-size: 1.75rem;
+      font-family: Montserrat-Bold;
+      text-align: center;
+      padding: 1rem 0rem 2rem 0rem;
+    }
+
+    .topo-text {
+      font-size: 1.5em;
+      color: white;
+      text-align: center;
+      justify-content: center;
+      align-items: flex-start;
+      font-family: Montserrat-Medium;
+      text-transform: uppercase;
+      top: -1px;
+      right: 690px
+    }
+
+    .img-topo {
+      width: 80%;
+    }
+
+    .rio-claro {
+      width: 80%;
+    }
+
+    .text-descricao {
+      font-size: 1rem;
+    }
+
+    .img-icones {
+      width: 100%;
+      padding: 0px 0px;
+    }
+
+    .descricao-img {
+      width: 100%;
+      padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .img-descricao {
+      width: 70%;
+      height: 50%;
+      justify-items: center;
+      justify-content: center;
+    }
+
+    .descricao-box {
+      width: auto;
+      padding-left: 1030px;
+      padding-top: 30px;
+    }
+
+    .diferencial-box {
+      align-items: start;
+      justify-content: start;
+      width: 4rem;
+    }
+
+    .diferencial-item {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding: 1rem 0rem;
+
+    }
+
+    .diferencial-content {
+      display: flex;
+      justify-content: start;
+    }
+
+    .diferencial-text {
+      font-size: 0.9em;
+      padding-left: 10px;
+      padding-right: 0px;
+      text-align: start;
+      font-family: Montserrat-Bold;
+
+    }
+
+    .img-diferencial {
+      width: 100%;
+      padding: 0rem 3rem;
+    }
+
+    .fotos-text {
+      font-size: 1.5em;
+    }
+
+    .planta-title {
+      font-size: 1.25em;
+      padding: 0rem 1rem;
+    }
+
+    .planta-text {
+      font-size: 0.75em;
+      padding: 0rem 1rem;
+      font-family: Montserrat-Bold;
+    }
+
+    .planta {
+      width: 60%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .img-planta {
+      width: 80%;
+      padding: 0rem 0rem;
+      margin-bottom: -3.25rem;
+    }
+
+    .mapa {
+      width: 100%;
+      height: 12rem;
+    }
+
+    .mapa-visite {
+      font-size: 2em;
+      line-height: 120%;
+      color: white;
+      text-transform: uppercase;
+      font-family: "Montserrat-Bold";
+      bottom: 120px;
+    }
+
+    .mapa-whats {
+      font-size: 1.8em;
+      line-height: 120%;
+      color: white;
+      font-family: "Montserrat-Bold";
+      bottom: 80px;
+    }
+
+    .mapa-title {
+      font-size: 4em;
+      text-transform: uppercase;
+      color: white;
+      font-family: "Montserrat-Medium";
+    }
+
+    .mapa-desc {
+      font-size: 1.8em;
+    }
+
+    .mapa-phone {
+      font-size: 2.4em;
+    }
+
+    .mapa-address {
+      font-size: 0.7em;
+      padding-bottom: 10px;
+    }
+
+    .img-mapa {
+      width: 100%;
+      padding: 1rem 2rem;
+    }
+
+
+    .mapa-text {
+      font-size: 1.2em;
+      padding: 1rem 0rem;
+
+    }
+
+    .text-mapa {
+      padding-top: 15rem;
+      padding-bottom: 12px;
+    }
+
+    .academia {
+      width: 40rem;
+      margin-top: 2rem;
+      height: 16rem;
+    }
+
+    .brinquedoteca {
+      width: 40rem;
+      margin-top: -1rem;
+      height: 16rem;
+    }
+
+    .quadra {
+      width: 40rem;
+      margin-top: 1rem;
+      height: 16rem;
+    }
+
+    .salao {
+      width: 40rem;
+      margin-top: -2rem;
+      height: 16rem;
+    }
+
+    .detalhe {
+      width: 3rem;
+      padding-left: 1rem;
+    }
+    .detalhe1 {
+      width: 3rem;
+      margin-left: -2rem;
+
+    }
+
+    .whatsapp {
+      width: 4.5rem;
+    }
+    .splide__pagination__page.is-active {
+      background-color: #ff6a00 !important;
+    }
+    
+    .splide__arrow svg {
+      fill: #ff6a00 !important;
+      justify-content: center;
+    }
+    
+    .splide__arrow {
+      background: #ff6a00;
+      border: 0;
+      height: 10px;
+      cursor: pointer;
+      margin: 0 0.1rem;
+      padding: 0;
+      transition: background-color .2s ease, color .2s ease;
+      width: 10px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+  }
+}
+
+/* SCROLLBAR */
+@media only screen and (min-width: 600px) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #002f65;
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #d7c7bd;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #002f65;
+    border-radius: 20px;
+    border: 3px solid #d7c7bd;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* SCROLLBAR */
