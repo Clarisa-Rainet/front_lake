@@ -94,7 +94,7 @@ export default function Page(props) {
 
   const renderImg = (value) => {
     return (
-      <SplideSlide className="d-flex justify-center items-center" style={{ display: "flex", alignSelf: 'center' }}>
+      <SplideSlide className="flex py-0 justify-center items-center" style={{ display: "flex", alignSelf: 'center' }}>
         <img src={value} className="w-auto" />
       </SplideSlide>
     )
@@ -112,8 +112,7 @@ export default function Page(props) {
             <img src={frontlake} width="300" />
           </div>
         </div>
-        <div className='d-flex'>
-          <div className='flex col-12'>
+          <div className='flex col-12 fotos'>
             <Splide
               className="splide-badges col-12"
               options={{
@@ -133,7 +132,6 @@ export default function Page(props) {
           <div className="fotos-text pb-10">
             Um <strong className="font-orange">condomínio club</strong> pronto para morar!
           </div>
-        </div>
       </div>
 
       :

@@ -724,7 +724,7 @@ a {
 }
 
 .splide__arrow {
-  background: #ff6a00;
+  background: transparent;
   border: 0;
   height: 10px;
   cursor: pointer;
@@ -1007,10 +1007,11 @@ a {
     .splide__arrow svg {
       fill: #ff6a00 !important;
       justify-content: center;
+      margin: 0 0px 0 -12px;
     }
     
     .splide__arrow {
-      background: #ff6a00;
+      background: transparent;
       border: 0;
       height: 10px;
       cursor: pointer;
@@ -1023,6 +1024,19 @@ a {
       transform: translateY(-50%);
       z-index: 1;
     }
+    .splide__list {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      margin: -100px 0 -100px 0!important;
+      padding: 0!important;
+      transform-style: preserve-3d;
+  }
+  .fotos {
+    margin: -10em 0em -10em 0em;
+  }
   }
 }
 
