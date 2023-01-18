@@ -376,6 +376,7 @@ a {
   font-size: 0.5em;
   color: #061927;
   text-align: center;
+  text-transform: uppercase;
   font-family: Montserrat-Medium;
   padding: 1rem 15rem;
 }
