@@ -100,9 +100,7 @@ export default function Page(props) {
           </div>
         </div>
         <div className="rodape-text">
-          INCORPORAÇÃO REGISTRADA SOB No R.21 DA MATRÍCULA 7.729 DO 2o CARTÓRIO DE REGISTRO DE IMÓVEIS DE RIO CLARO/sp, NOS TERMOS DA LEI 4.591/64.
-          TODAS AS UNIDADES SERÃO ENTREGUES COM 3 DORMITÓRIOS SENDO 1 SUÍTE. AS ADPATAÇÕES DEVERÃO SER REALIZADAS PELO ADQUIRENTE.
-          ENTRADA E SALDO CORRIGOS ANUALMENTE CONFORME CLÁUSULA. *CONSULTE- NOS PARA MAIORES INDORMAÇÕES E OUTRAS CONDIÇÕES.
+          Incorporação registrada sob nº R.21 da matrícula 7.729 do 2º Oficial de Registro de Imóveis Comarca Rio Claro – Estado de São Paulo, nos termos da Lei 4.591/64. Todas as condições comerciais poderão ser obtidas diretamente com os consultores imobiliários nos pontos de vendas. Imagens meramente ilustrativas.
         </div>
       </div>
   )
