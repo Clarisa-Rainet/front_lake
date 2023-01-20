@@ -132,7 +132,7 @@ export default function Page(props) {
                 </div>
 
                 <div className="flex-col diferencial-content">
-                  <div className="diferencial-item">
+                  <div className="diferencial-item mr-1">
                     <img src={churrasqueira} className="diferencial-box" />
                     <div className="flex diferencial-text">
                       varanda com <br />churrasqueira
@@ -146,7 +146,7 @@ export default function Page(props) {
                     </div>
                   </div>
 
-                  <div className="diferencial-item">
+                  <div className="diferencial-item ml-6">
                     <img src={planta} className="diferencial-box" />
                     <div className="flex diferencial-text">
                       planta adaptável

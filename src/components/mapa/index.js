@@ -68,7 +68,7 @@ export default function Page(props) {
                   <a
                     className="noHover"
                     target="_blank"
-                    href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.8693852778597!2d-47.54467887082749!3d-22.4486821595993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7d0bc1f50b67b%3A0x9443b97a3819e661!2sR.%20Tr%C3%AAs%2C%20Santa%20Gertrudes%20-%20SP%2C%2013510-000!5e0!3m2!1spt-BR!2sbr!4v1671659272434!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                    href='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d229.97485854376603!2d-47.643545!3d-22.7431883!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c6319744817313%3A0x9990acd3d8df6119!2sEdif%C3%ADcio%20Higien%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1674074149204!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
                     <img src={mapa} className="mapa pt-6" />
                   </a>
                   <div className="mapa-address pt-6">
@@ -113,7 +113,7 @@ export default function Page(props) {
                   <a
                     className="noHover"
                     target="_blank"
-                    href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.8693852778597!2d-47.54467887082749!3d-22.4486821595993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7d0bc1f50b67b%3A0x9443b97a3819e661!2sR.%20Tr%C3%AAs%2C%20Santa%20Gertrudes%20-%20SP%2C%2013510-000!5e0!3m2!1spt-BR!2sbr!4v1671659272434!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                    href='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1844.497857212071!2d-47.566549!3d-22.391519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd36114b5dcc4289e!2sFront%20Lake%20Condominium%20Club!5e0!3m2!1spt-BR!2sbr!4v1674075506293!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;'>
                     <img src={mapa} className="mapa px-6" />
                   </a>
                   <div className="mapa-address">

@@ -93,10 +93,10 @@ export default function Page(props) {
             </div>
             <div className="planta-text">
               Apartamento com sala de estar | jantar, cozinha,
-              lavanderia, e 3 dormitórios sendo 1 suíte.
+              lavanderia, e 3 dormitórios<br/> sendo 1 suíte.
             </div>
           </div>
-          <div className="flex">
+          <div className="flex px-44">
             <div className="flex content-center justify-center">
               <Splide
                 ref={ref}
@@ -111,13 +111,13 @@ export default function Page(props) {
                 }}
               >
                 <SplideSlide className="flex justify-center items-center pr-0 pl-10" style={{ display: 'flex', alignSelf: 'center' }}>
-                  <img src={planta} className="flex justify-center md-h-full" />
+                  <img src={planta} className="flex justify-center md-h-full planta" />
                 </SplideSlide>
                 <SplideSlide className="flex justify-center items-center pr-0 pl-10" style={{ display: 'flex', alignSelf: 'center' }}>
-                  <img src={plantaHumanizada} className="flex justify-center	md-h-full" />
+                  <img src={plantaHumanizada} className="flex justify-center	md-h-full planta" />
                 </SplideSlide>
                 <SplideSlide className="flex justify-center items-center pr-0 pl-10" style={{ display: 'flex', alignSelf: 'center' }}>
-                  <img src={frontLake} className="flex justify-center md-h-full" />
+                  <img src={frontLake} className="flex justify-center md-h-full planta" />
                 </SplideSlide>
 
               </Splide>

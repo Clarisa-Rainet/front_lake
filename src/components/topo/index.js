@@ -44,7 +44,7 @@ export default function Page(props) {
                 <img
                   src={frontlake}
                   className="flex"
-                  width="250"
+                  width="200"
                 />
               </div>
               <div className="text-topo self-center">
@@ -58,7 +58,7 @@ export default function Page(props) {
                 <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5519996965525" >
-                  <img src={cta} className="iflex mg-topo pt-10" />
+                  <img src={cta} className="flex img-topo pt-10 justify-center" />
                 </a>
               </div>
 
@@ -77,21 +77,22 @@ export default function Page(props) {
                 <img
                   src={frontlake}
                   className="flex"
-                  width="300"
+                  width="200"
                 />
               </div>
               <div className="text-topo self-start">
                 o privilégio de <br />viver o melhor de
               </div>
               <div className="flex rio-claro">
-                <img src={topo} className="flex" />
+                <img src={topo} className="flex"                   width="300"
+/>
               </div>
 
               <div className="relative flex flex-auto justify-start">
                 <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5519996965525" >
-                  <img src={cta} className="img-topo pt-6" />
+                  <img src={cta} className="img-topo pt-10" />
                 </a>
               </div>
 

@@ -164,22 +164,22 @@ export default function Page(props) {
                 <SplideSlide className="flex items-center">
                   <div className="flex flex-col pr-2 pl-10">
                     <div className='flex flex-grid pb-1'>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={sala} />
                       </div>
-                      <div className="flex pl-1">
+                      <div className="flex-auto bloco pl-1">
                         <img src={varanda} />
                       </div>
                     </div>
 
                     <div className="flex flex-grid">
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={cozinha_sala} />
                       </div>
-                      <div className="flex px-1">
+                      <div className="flex-auto bloco px-1">
                         <img src={cozinha} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={quarto} />
                       </div>
                     </div>
@@ -189,28 +189,28 @@ export default function Page(props) {
                 <SplideSlide className="flex items-center">
                   <div className="flex flex-col pr-2 pl-10">
                     <div className='flex flex-grid pb-1'>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto1} />
                       </div>
-                      <div className="flex px-1">
+                      <div className="flex-auto bloco px-1">
                         <img src={foto2} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto3} />
                       </div>
                     </div>
 
                     <div className="flex flex-grid">
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={piscina} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto4} />
                       </div>
-                      <div className="flex px-1">
+                      <div className="flex-auto bloco px-1">
                         <img src={foto5} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto6} />
                       </div>
                     </div>
@@ -221,26 +221,26 @@ export default function Page(props) {
                 <SplideSlide className="flex items-center">
                   <div className="flex flex-col pr-2 pl-10">
                     <div className='flex flex-grid pb-1'>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto7} />
                       </div>
-                      <div className="flex px-1">
+                      <div className="flex-auto bloco px-1">
                         <img src={foto8} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto9} />
                       </div>
                     </div>
 
                     <div className="flex flex-grid">
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto10} />
                       </div>
 
-                      <div className="flex px-1">
+                      <div className="flex-auto bloco px-1">
                         <img src={foto11} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto12} />
                       </div>
                     </div>
@@ -251,25 +251,25 @@ export default function Page(props) {
                 <SplideSlide className="flex items-center">
                   <div className="flex flex-col pr-2 pl-10">
                     <div className='flex flex-grid pb-1'>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto13} />
                       </div>
-                      <div className="flex px-1">
+                      <div className="flex-auto bloco px-1">
                         <img src={foto14} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto15} />
                       </div>
                     </div>
 
                     <div className="flex flex-grid">
-                      <div className="flex pr-1">
+                      <div className="flex-auto bloco pr-1">
                         <img src={foto16} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto17} />
                       </div>
-                      <div className="flex pl-1">
+                      <div className="flex-auto bloco pl-1">
                         <img src={foto18} />
                       </div>
                     </div>
@@ -280,25 +280,25 @@ export default function Page(props) {
                 <SplideSlide className="flex items-center">
                   <div className="flex flex-col pr-2 pl-10">
                     <div className='flex flex-grid pb-1'>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto19} />
                       </div>
-                      <div className="flex px-1">
+                      <div className="flex-auto bloco px-1">
                         <img src={foto20} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto21} />
                       </div>
                     </div>
 
                     <div className="flex flex-grid">
-                      <div className="flex pr-1">
+                      <div className="flex-auto bloco pr-1">
                         <img src={foto22} />
                       </div>
-                      <div className="flex">
+                      <div className="flex-auto bloco">
                         <img src={foto23} />
                       </div>
-                      <div className="flex pr-1">
+                      <div className="flex-auto bloco pl-1">
                         <img src={foto24} />
                       </div>
                     </div>

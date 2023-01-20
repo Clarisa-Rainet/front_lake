@@ -218,19 +218,17 @@ a {
 
 
 .definicao {
-  padding: 4rem 0 0px 10rem;
-  justify-content: flex-start;
-  align-self: flex-start;
+  padding: 4rem 0 0px 22rem;
 }
 
 .text-topo {
   color: #002f65;
   text-transform: uppercase;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-family: Montserrat-Bold;
   text-align: center;
-  padding: 1rem 0rem 1rem 0rem;
-  margin-left: -14px;
+  padding: 1.5rem 0rem 1rem 0rem;
+  margin-left: -2rem;
 }
 
 .topo-text {
@@ -247,10 +245,14 @@ a {
 
 .img-topo {
   width: 70%;
+  margin-left: -1rem;
 }
-
+.top-img {
+  margin-left: 2rem;
+}
 .rio-claro {
-  width: 60%;
+  width: auto;
+  margin-left: 0rem;
 }
 
 .text-descricao {
@@ -259,6 +261,35 @@ a {
   font-family: Montserrat-Medium;
   text-align: center;
 }
+
+
+
+.bloco {
+  cursor: pointer;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+ 
+.bloco img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+ 
+.bloco:hover img {
+  transform: scale(1.5);
+}
+.bloco img{
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.bloco img:hover {
+  width: 100vw;
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+
 
 .img-icones {
   width: 100%;
@@ -290,13 +321,13 @@ a {
 .diferencial-box {
   align-items: center;
   justify-content: center;
-  width: 5rem;
+  width: 3rem;
 }
 
 .diferencial-box1 {
   align-items: center;
   justify-content: center;
-  width: 6rem;
+  width: 4.5rem;
 }
 
 .diferencial-item {
@@ -314,14 +345,13 @@ a {
 }
 
 .diferencial-text {
-  font-size: 1.25em;
+  font-size: 1em;
   color: #002f65;
   text-align: center;
   justify-items: center;
   justify-content: center;
   font-family: Montserrat-Bold;
   padding-left: 40px;
-  padding-right: 40px;
   text-transform: uppercase;
 }
 
@@ -338,7 +368,9 @@ a {
   font-family: Montserrat-Medium;
   text-transform: uppercase;
 }
-
+.planta {
+  width: 80%;
+}
 .planta-title {
   font-size: 2.25em;
   color: #ff6a00;
@@ -351,17 +383,10 @@ a {
   font-size: 1.5em;
   color: #002f65;
   text-align: center;
-  text-transform: uppercase;
   font-family: Montserrat-Medium;
   padding: 0rem 11rem 1rem 11rem;
 }
 
-.planta {
-  width: 60%;
-  justify-content: center;
-  align-items: center;
-
-}
 
 .rodape-title {
   font-size: 1em;
@@ -410,8 +435,8 @@ a {
 }
 
 .img-planta {
-  width: 80%;
-  padding: 0rem 12rem 0rem 0rem;
+  width: 100%;
+  padding: 0rem 40rem 0rem 0rem;
 }
 
 .mapa {
@@ -481,7 +506,7 @@ a {
 
 .text-mapa {
   width: 30rem;
-  padding-top: 11rem;
+  padding-top: 14rem;
   padding-bottom: 6px;
 }
 
@@ -739,7 +764,19 @@ a {
   z-index: 1;
 }
 
+@media (max-width: 2100px) {
 
+.img-planta {
+  width: 100%;
+  padding: 0rem 40rem 0rem 0rem;
+}
+@media (max-width: 1400px) {
+  .img-planta {
+    width: 100%;
+    padding: 0rem 30rem 0rem 0rem;
+  }
+}
+}
 @media (max-width: 767px) {
 
 
@@ -792,10 +829,10 @@ a {
     .text-topo {
       color: #002f65;
       text-transform: uppercase;
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       font-family: Montserrat-Bold;
       text-align: center;
-      padding: 1rem 0rem 2rem 0rem;
+      padding: 0rem 0rem 2rem 0rem;
     }
 
     .topo-text {
@@ -811,11 +848,12 @@ a {
     }
 
     .img-topo {
-      width: 80%;
+      width: 70%;
+      margin-left: 3rem;
     }
 
     .rio-claro {
-      width: 80%;
+      width: 70%;
     }
 
     .text-descricao {
