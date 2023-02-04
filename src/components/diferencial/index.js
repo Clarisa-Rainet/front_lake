@@ -80,7 +80,7 @@ export default function Page(props) {
                 <div className="diferencial-item">
                   <img src={arCondicionado} className="diferencial-box" />
                   <div className="flex diferencial-text">
-                    suporta até 4 pontos de<br/> ar-condicionado
+                    suporta até 4 pontos de<br /> ar-condicionado
                   </div>
                 </div>
               </div>
@@ -109,59 +109,62 @@ export default function Page(props) {
       <ScrollableAnchor id={'diferencial'}>
         <div className="bg-diferencial py-20">
           <Fade>
-            <div className="flex flex-col items-start">
-              <div className="justify-center">
-                <img src={diferencial} className="w-auto pl-20" />
-              </div>
+            <div className="flex flex-grid items-start">
 
-              <div className="flex flex-grid diferencial-content items-center pl-20">
-                <div className="flex-col diferencial-content">
-                  <div className="diferencial-item">
-                    <img src={elevadores} className="diferencial-box" />
-                    <div className="flex diferencial-text">
-                      3 Elevadores <br />por Torre
+              <div className="flex flex-col items-start">
+                <div className="justify-center pb-10">
+                  <img src={diferencial} className="w-auto pl-20" />
+                </div>
+
+                <div className="flex flex-grid diferencial-content items-center pl-20">
+                  <div className="flex-col diferencial-content">
+                    <div className="diferencial-item">
+                      <img src={elevadores} className="diferencial-box" />
+                      <div className="flex diferencial-text">
+                        3 Elevadores <br />por Torre
+                      </div>
                     </div>
-                  </div>
 
-                  <div className="diferencial-item">
-                    <img src={localizacao} className="diferencial-box" />
-                    <div className="flex diferencial-text">
-                      localização <br />privilegiada
+                    <div className="diferencial-item">
+                      <img src={localizacao} className="diferencial-box" />
+                      <div className="flex diferencial-text">
+                        localização <br />privilegiada
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex-col diferencial-content">
-                  <div className="diferencial-item mr-1">
-                    <img src={churrasqueira} className="diferencial-box" />
-                    <div className="flex diferencial-text">
-                      varanda com <br />churrasqueira
-                    </div>
+              </div>
+              <div className="flex-col diferencial-content">
+                <div className="diferencial-item ml-2">
+                  <img src={churrasqueira} className="diferencial-box pr-2" />
+                  <div className="flex diferencial-text">
+                    varanda com <br />churrasqueira
                   </div>
+                </div>
 
-                  <div className="diferencial-item ml-14">
-                    <img src={arCondicionado} className="diferencial-box1" />
-                    <div className="flex diferencial-text">
-                      suporta até 4 pontos <br />de ar-condicionado
-                    </div>
+                <div className="diferencial-item ml-14">
+                  <img src={arCondicionado} className="diferencial-box1" />
+                  <div className="flex diferencial-text">
+                    suporta até 4 pontos <br />de ar-condicionado
                   </div>
+                </div>
 
-                  <div className="diferencial-item ml-6">
-                    <img src={planta} className="diferencial-box" />
-                    <div className="flex diferencial-text">
-                      planta adaptável
-                    </div>
+                <div className="diferencial-item ml-6">
+                  <img src={planta} className="diferencial-box pr-2" />
+                  <div className="flex diferencial-text">
+                    planta adaptável
                   </div>
                 </div>
               </div>
 
-              <div className="flex flex-auto justify-start self-start pt-10">
-                <a
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5519996965525" >
-                  <img src={visite} className="img-diferencial" />
-                </a>
-              </div>
+            </div>
+            <div className="flex flex-auto justify-start self-start pt-10">
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5519996965525" >
+                <img src={visite} className="img-diferencial" />
+              </a>
             </div>
           </Fade>
         </div>

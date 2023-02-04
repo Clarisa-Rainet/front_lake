@@ -208,14 +208,41 @@ a {
   background: url(../assets/file/galeria.png) top center no-repeat;
   background-size: cover;
 }
-
-
+.img-galeria {
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.img-logo {
+  width: 25rem;
+  margin-left: -1rem;
+}
 .bg-topo {
   background: url(../assets/background/bg_topo.png) center center no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
+.img-bloco {
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+}
+.img-bloco img {
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.img-bloco:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+  }
 
 .definicao {
   padding: 4rem 0 0px 22rem;
@@ -262,35 +289,6 @@ a {
   text-align: center;
 }
 
-
-
-.bloco {
-  cursor: pointer;
-  width: auto;
-  overflow: hidden;
-  margin: 0 auto;
-}
- 
-.bloco img {
-  width: 100%;
-  transition: 0.5s all ease-in-out;
-}
- 
-.bloco:hover img {
-  transform: scale(1.5);
-}
-.bloco img{
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-}
-.bloco img:hover {
-  width: 100vw;
-  -webkit-transform:scale(1.2);
-  transform:scale(1.2);
-}
-
-
-
 .img-icones {
   width: 100%;
   padding: 30px 60px;
@@ -321,7 +319,7 @@ a {
 .diferencial-box {
   align-items: center;
   justify-content: center;
-  width: 3rem;
+  width: 4rem;
 }
 
 .diferencial-box1 {
@@ -347,7 +345,7 @@ a {
 .diferencial-text {
   font-size: 1em;
   color: #002f65;
-  text-align: center;
+  text-align: start;
   justify-items: center;
   justify-content: center;
   font-family: Montserrat-Bold;
@@ -368,8 +366,17 @@ a {
   font-family: Montserrat-Medium;
   text-transform: uppercase;
 }
+.fotos-text strong{
+  font-size: 1em;
+  color: #ff6a00;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat-Medium;
+}
 .planta {
-  width: 80%;
+  width: 100%;
+  margin-top: -8rem;
+  margin-bottom: -8rem;
 }
 .planta-title {
   font-size: 2.25em;
@@ -713,7 +720,83 @@ a {
   padding: 2em 2em 0.8em;
 }
 
-.modal-cancel {
+
+.card_img{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+.small_img{
+  height: 100%;
+  cursor: pointer;
+  transition: all linear 0.4s;
+}
+.small_img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#modal_img{
+  width: 65vw;
+  transform: scale(0);
+  transition: all linear .3s;
+}
+
+.modal_active #modal_img{
+  transform: scale(1);
+}
+.modal{
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .7);
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0;
+  transition: visibility 0.8s linear, opacity 0.5s linear;
+}
+
+.modal_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#bt_close{
+  color:#fff;
+  background-color: #000;
+  position: absolute;
+  top:10px;
+  right: 10px;
+  padding: 5px 10px;
+  font-size: 25px;
+  border:solid 1px #fff;
+  transition: all ease-out .4s;
+  cursor: pointer;
+}
+#bt_close:hover{
+  background-color: #f00;
+}
+
+.modal_active{
+  visibility: visible;
+  opacity: 1;
+
+}
+
+
+
+/* .modal-cancel {
   background-image: none;
   border: none;
   box-shadow: none;
@@ -738,7 +821,7 @@ a {
   padding-right: 5px !important;
   padding-top: 5px !important;
   padding-bottom: 5px !important;
-}
+} */
 
 .splide__pagination__page.is-active {
   background-color: #ff6a00 !important;
@@ -756,7 +839,7 @@ a {
   cursor: pointer;
   margin: 0 0.1rem;
   padding: 0;
-  transition: background-color .2s ease, color .2s ease;
+  /* transition: background-color .2s ease, color .2s ease; */
   width: 10px;
   position: absolute;
   top: 50%;
@@ -1036,11 +1119,19 @@ a {
 
     }
 
+    .fotos {
+      margin: -10em 0 0em 0em;
+    }
     .whatsapp {
       width: 4.5rem;
     }
+    .splide__pagination__page {
+      background-color: #ffffff !important;
+      width: 6px;
+    }
     .splide__pagination__page.is-active {
       background-color: #ff6a00 !important;
+      width: 6px;
     }
     
     .splide__arrow svg {
@@ -1073,9 +1164,22 @@ a {
       padding: 0!important;
       transform-style: preserve-3d;
   }
-  .fotos {
-    margin: -10em 0 0em 0em;
-  }
+
+  /* .splide__pagination__page.is-active {
+    background: #ccc;
+    border: 0;
+    border-radius: 2.5px;
+    display: inline-block;
+    height: 5px;
+    margin: 3px;
+    padding: 0;
+    transition: all .2s linear;
+    width: 6px;
+} */
+
+
+
+  
   }
 }
 

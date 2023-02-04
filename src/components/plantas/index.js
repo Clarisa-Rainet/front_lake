@@ -96,7 +96,7 @@ export default function Page(props) {
               lavanderia, e 3 dormitórios<br/> sendo 1 suíte.
             </div>
           </div>
-          <div className="flex px-44">
+          <div className="flex">
             <div className="flex content-center justify-center">
               <Splide
                 ref={ref}
@@ -106,7 +106,7 @@ export default function Page(props) {
                   width: '80%',
                   gap: '0rem',
                   perPage: 1,
-                  pagination: true,
+                  pagination: false,
                   arrows: !isMobile,
                 }}
               >
