@@ -68,7 +68,7 @@ export default function Page(props) {
               </div>
             </div>
 
-            <div className="flex-wrap diferencial-content pt-10">
+            <div className="flex-wrap diferencial-content">
               <div className="diferencial-item">
                 <img src={churrasqueira} className="diferencial-box" />
                 <div className="flex diferencial-text">
@@ -135,7 +135,7 @@ export default function Page(props) {
                 </div>
 
               </div>
-              <div className="flex-col diferencial-content">
+              <div className="flex-col diferencial-content pt-10">
                 <div className="diferencial-item ml-2">
                   <img src={churrasqueira} className="diferencial-box pr-2" />
                   <div className="flex diferencial-text">
