@@ -73,37 +73,120 @@ export default function Page(props) {
   return (
     isMobile ?
       <div className="bg-galeriaMobile">
-        <div className="flex">
+        <div className="flex flex-col justify-center items-center pt-6">
           <img src={galeria} className="flex img-galeria" />
-          <img src={logo} className="flex img-galeria" />
-
+          <div className="flex justify-center">
+          </div>
+          <img src={logo} className="flex img-logo" />
         </div>
-        <div className='d-flex pr-6'>
-          <div className='flex col-12'>
+        <div class="transition duration-150 ease-out hover:ease-in">
+          <div className="flex flex-col justify-center content-center	items-center	">
             <Splide
+              ref={ref}
               className="splide-badges col-12"
               options={{
                 rewind: true,
-                width: '100%',
+                width: '80%',
                 height: 'auto',
                 gap: '0rem',
                 perPage: 1,
-                paddingLeft: 10,
-                pagination: false,
-                arrows: true,
-                type: 'loop',
+                pagination: isMobile,
+                arrows: !isMobile,
               }}
             >
-              {arrayFotos.map(el => { return (renderImg(el)) })}
+              <SplideSlide className="flex flex-col items-center pl-8">
+                <div className='flex flex-grid'>
+                  <div className="flex img-bloco">
+                    <img src={sala} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco pr-1">
+                    <img src={cozinha} />
+                  </div>
+                  <div className="flex img-bloco">
+                    <img src={quarto} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco">
+                    <img src={foto1} />
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide className="flex flex-col items-center pl-8">
+                <div className='flex flex-grid'>
+                  <div className="flex img-bloco">
+                    <img src={foto3} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco pr-1">
+                    <img src={foto4} />
+                  </div>
+                  <div className="flex img-bloco">
+                    <img src={foto5} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco">
+                    <img src={foto7} />
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide className="flex flex-col items-center pl-8">
+                <div className='flex flex-grid'>
+                  <div className="flex img-bloco">
+                    <img src={foto8} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco pr-1">
+                    <img src={foto9} />
+                  </div>
+                  <div className="flex img-bloco">
+                    <img src={foto10} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco">
+                    <img src={foto11} />
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide className="flex flex-col items-center pl-8">
+                <div className='flex flex-grid'>
+                  <div className="flex img-bloco">
+                    <img src={foto12} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco pr-1">
+                    <img src={foto13} />
+                  </div>
+                  <div className="flex img-bloco">
+                    <img src={foto14} />
+                  </div>
+                </div>
+                <div className='flex flex-grid pt-1'>
+                  <div className="flex img-bloco">
+                    <img src={foto1} />
+                  </div>
+                </div>
+              </SplideSlide>
             </Splide>
-          </div>
-          <div className="fotos-text pb-10">
-            <div className="flex">Um <strong>condominio club</strong> pronto para morar!</div>
 
+          </div>
+        </div >
+        <div className="flex flex-col pb-10">
+          <div className="fotos-text">
+            Um <strong>condominio club </strong>
+            <div className="text-fotos">
+              <br />pronto para morar!
+            </div>
           </div>
         </div>
       </div>
-
       :
       <ScrollableAnchor id={'fotos'}>
         <div className="bg-galeria py-10">
@@ -198,7 +281,7 @@ export default function Page(props) {
             </div>
           </div >
           <div className="fotos-text justify-content-center">
-            <div className="flex justify-center">Um <strong> condominio club </strong> pronto para morar!</div>
+            <div className="flex justify-center	">Um <strong> condominio club </strong> pronto para morar!</div>
           </div>
         </div >
       </ScrollableAnchor >

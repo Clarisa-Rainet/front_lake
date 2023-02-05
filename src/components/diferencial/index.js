@@ -45,7 +45,7 @@ export default function Page(props) {
         <Fade>
           <div className="flex flex-col justify-center items-center">
             <div className="justify-center">
-              <img src={diferencial} className="p-10" />
+              <img src={diferencial} className="diferencial" />
             </div>
           </div>
 

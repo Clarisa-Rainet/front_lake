@@ -44,7 +44,7 @@ export default function Page(props) {
   return (
     isMobile ?
       <div className="bg-plantaMobile">
-        <div className="flex-auto flex-col pt-10" >
+        <div className="flex-auto flex-col py-10" >
           <div className="planta-title">
             <div className="leading-relaxed" >
               INFRAESTRUTURA COMPLETA
@@ -55,9 +55,12 @@ export default function Page(props) {
             lavanderia, e 3 dormitórios sendo 1 suíte.
           </div>
         </div>
-        
-        <div className="mx-2">
-          <div className="">
+        <div className="planta">
+          <div className="flex">
+            <img src={planta} className="flex img-planta" />
+          </div>
+        </div>
+          {/* <div className="planta">
             <Splide
               className="splide-badges col-12"
               options={{
@@ -73,13 +76,12 @@ export default function Page(props) {
               {arrayFotos.map(el => { return (renderImg(el)) })}
 
             </Splide>
-          </div>
-        </div>
-        <div className="flex flex-auto justify-center self-center">
+          </div> */}
+        <div className="flex">
             <a
               target="_blank"
               href="https://api.whatsapp.com/send?phone=5519996965525" >
-              <img src={ctaVisite} className="flex img-planta" />
+              <img src={ctaVisite} className="flex planta-img" />
             </a>
           </div>
       </div>
@@ -127,7 +129,7 @@ export default function Page(props) {
             <a
               target="_blank"
               href="https://api.whatsapp.com/send?phone=5519996965525" >
-              <img src={visite} className="flex img-planta" />
+              <img src={visite} className="flex planta-img" />
             </a>
           </div>
         </div>

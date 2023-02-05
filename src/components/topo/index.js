@@ -40,7 +40,7 @@ export default function Page(props) {
         <div className="bg-topoMobile">
           <Fade>
             <div className="flex flex-col definicao flex-col">
-              <div className="top-img py-16">
+              <div className="top-img pt-32">
                 <img
                   src={frontlake}
                   className="flex"

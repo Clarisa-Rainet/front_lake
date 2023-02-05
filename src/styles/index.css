@@ -208,8 +208,9 @@ a {
   background: url(../assets/file/galeria.png) top center no-repeat;
   background-size: cover;
 }
+
 .img-galeria {
-  width: 16rem;
+  width: 10rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -217,10 +218,12 @@ a {
   align-items: center;
   padding-bottom: 1rem;
 }
+
 .img-logo {
-  width: 25rem;
-  margin-left: -1rem;
+  width: 14rem;
+  margin-left: 0rem;
 }
+
 .bg-topo {
   background: url(../assets/background/bg_topo.png) center center no-repeat;
   background-size: cover;
@@ -232,17 +235,19 @@ a {
   height: auto;
   overflow: hidden;
 }
+
 .img-bloco img {
   max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
+
 .img-bloco:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-  }
+  transform: scale(1.1);
+}
 
 .definicao {
   padding: 4rem 0 0px 22rem;
@@ -274,9 +279,11 @@ a {
   width: 70%;
   margin-left: -1rem;
 }
+
 .top-img {
-  margin-left: 2rem;
+  margin-left: -1rem;
 }
+
 .rio-claro {
   width: auto;
   margin-left: 0rem;
@@ -366,18 +373,21 @@ a {
   font-family: Montserrat-Medium;
   text-transform: uppercase;
 }
-.fotos-text strong{
+
+.fotos-text strong {
   font-size: 1em;
   color: #ff6a00;
   text-align: center;
   text-transform: uppercase;
   font-family: Montserrat-Medium;
 }
+
 .planta {
   width: 100%;
   margin-top: -8rem;
   margin-bottom: -8rem;
 }
+
 .planta-title {
   font-size: 2.25em;
   color: #ff6a00;
@@ -721,39 +731,41 @@ a {
 }
 
 
-.card_img{
+.card_img {
   width: 300px;
   height: 300px;
   overflow: hidden;
   margin: 25px;
 }
 
-.small_img{
+.small_img {
   height: 100%;
   cursor: pointer;
   transition: all linear 0.4s;
 }
-.small_img:hover{
+
+.small_img:hover {
   filter: grayscale(100%);
   transform: scale(1.1);
 }
 
-.row{
+.row {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-#modal_img{
+#modal_img {
   width: 65vw;
   transform: scale(0);
   transition: all linear .3s;
 }
 
-.modal_active #modal_img{
+.modal_active #modal_img {
   transform: scale(1);
 }
-.modal{
+
+.modal {
 
   width: 100vw;
   height: 100vh;
@@ -765,30 +777,31 @@ a {
   transition: visibility 0.8s linear, opacity 0.5s linear;
 }
 
-.modal_content{
+.modal_content {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-#bt_close{
-  color:#fff;
+#bt_close {
+  color: #fff;
   background-color: #000;
   position: absolute;
-  top:10px;
+  top: 10px;
   right: 10px;
   padding: 5px 10px;
   font-size: 25px;
-  border:solid 1px #fff;
+  border: solid 1px #fff;
   transition: all ease-out .4s;
   cursor: pointer;
 }
-#bt_close:hover{
+
+#bt_close:hover {
   background-color: #f00;
 }
 
-.modal_active{
+.modal_active {
   visibility: visible;
   opacity: 1;
 
@@ -823,8 +836,32 @@ a {
   padding-bottom: 5px !important;
 } */
 
+.splide__pagination__page {
+  background: #ccc;
+  border: 0;
+  border-radius: 2.5px;
+  display: inline-block;
+  height: 5px;
+  margin: 3px;
+  padding: 0;
+  transition: all .2s linear;
+  width: 20px;
+}
+
 .splide__pagination__page.is-active {
   background-color: #ff6a00 !important;
+  width: 6px;
+}
+
+
+.splide__pagination__page:hover {
+  background-color: transparent !important;
+  border-color: #ffffff;
+  border-width: 0.75rem;
+  border-radius: 9999px;
+  border-style: solid;
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .splide__arrow svg {
@@ -849,17 +886,19 @@ a {
 
 @media (max-width: 2100px) {
 
-.img-planta {
-  width: 100%;
-  padding: 0rem 40rem 0rem 0rem;
-}
-@media (max-width: 1400px) {
   .img-planta {
     width: 100%;
-    padding: 0rem 30rem 0rem 0rem;
+    padding: 0rem 40rem 0rem 0rem;
+  }
+
+  @media (max-width: 1400px) {
+    .img-planta {
+      width: 100%;
+      padding: 0rem 30rem 0rem 0rem;
+    }
   }
 }
-}
+
 @media (max-width: 767px) {
 
 
@@ -872,6 +911,7 @@ a {
     .bg-diferencialMobile {
       background: url(../assets/background/bg_diferenciaisMobile.png) center right no-repeat;
       background-size: cover;
+      width: 30rem;
     }
 
     .bg-descricaoMobile {
@@ -915,7 +955,7 @@ a {
       font-size: 1.5rem;
       font-family: Montserrat-Bold;
       text-align: center;
-      padding: 0rem 0rem 2rem 0rem;
+      padding: 4rem 0rem 2rem 0rem;
     }
 
     .topo-text {
@@ -933,6 +973,13 @@ a {
     .img-topo {
       width: 70%;
       margin-left: 3rem;
+    }
+
+    .img-logo {
+      width: 14rem;
+      margin-left: 1rem;
+      padding-bottom: 1rem;
+
     }
 
     .rio-claro {
@@ -960,6 +1007,12 @@ a {
       justify-content: center;
     }
 
+    .diferencial {
+      width: 14rem;
+      padding: 2rem 0 1rem 0;
+      margin-left: -30px;
+    }
+
     .descricao-box {
       width: auto;
       padding-left: 1030px;
@@ -969,7 +1022,7 @@ a {
     .diferencial-box {
       align-items: start;
       justify-content: start;
-      width: 4rem;
+      width: 2.5rem;
     }
 
     .diferencial-item {
@@ -987,7 +1040,7 @@ a {
 
     .diferencial-text {
       font-size: 0.9em;
-      padding-left: 10px;
+      padding-left: 24px;
       padding-right: 0px;
       text-align: start;
       font-family: Montserrat-Bold;
@@ -995,12 +1048,26 @@ a {
     }
 
     .img-diferencial {
-      width: 100%;
-      padding: 0rem 3rem;
+      width: 22rem;
+      padding: 0rem 0rem 0rem 3rem;
     }
 
     .fotos-text {
-      font-size: 1.5em;
+      font-size: 0.8em;
+      text-align: center;
+    }
+
+    .fotos-text strong {
+      font-size: 1em;
+      color: #ff6a00;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: Montserrat-Medium;
+      margin: 0px;
+    }
+
+    .text-fotos {
+      line-height: 0.5rem;
     }
 
     .planta-title {
@@ -1010,20 +1077,28 @@ a {
 
     .planta-text {
       font-size: 0.75em;
-      padding: 0rem 1rem;
+      padding: 0rem 2rem;
       font-family: Montserrat-Bold;
     }
 
     .planta {
-      width: 60%;
+      width: 100%;
       justify-content: center;
       align-items: center;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
+      padding: 0 1rem;
     }
 
+    .planta-img {
+      height: auto;
+      width: 70%;
+    }
+
+
     .img-planta {
-      width: 80%;
+      width: 100%;
       padding: 0rem 0rem;
-      margin-bottom: -3.25rem;
     }
 
     .mapa {
@@ -1075,71 +1150,109 @@ a {
 
 
     .mapa-text {
-      font-size: 1.2em;
-      padding: 1rem 0rem;
-
+      font-size: 1em;
+      padding: 2rem 1rem
     }
 
     .text-mapa {
-      padding-top: 15rem;
+      padding-top: 10rem;
       padding-bottom: 12px;
+      width: 18rem;
     }
 
     .academia {
-      width: 40rem;
+      width: 32rem;
       margin-top: 2rem;
-      height: 16rem;
+      height: 14rem;
     }
 
     .brinquedoteca {
-      width: 40rem;
-      margin-top: -1rem;
-      height: 16rem;
+      width: 32rem;
+      margin-top: -1.5rem;
+      height: 14rem;
     }
 
     .quadra {
-      width: 40rem;
-      margin-top: 1rem;
-      height: 16rem;
+      width: 32rem;
+      margin-top: 0.5rem;
+      height: 14rem;
     }
 
     .salao {
-      width: 40rem;
-      margin-top: -2rem;
-      height: 16rem;
+      width: 32rem;
+      margin-top: -3rem;
+      height: 14rem;
     }
 
     .detalhe {
       width: 3rem;
       padding-left: 1rem;
     }
+
     .detalhe1 {
       width: 3rem;
-      margin-left: -2rem;
+      margin-left: 0rem;
 
     }
 
     .fotos {
       margin: -10em 0 0em 0em;
     }
+
+    .img-bloco {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+
+    .img-bloco img {
+      max-width: 100%;
+      -moz-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    .img-bloco:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
     .whatsapp {
       width: 4.5rem;
     }
+
     .splide__pagination__page {
-      background-color: #ffffff !important;
-      width: 6px;
+      background: #ccc;
+      border: 0;
+      border-radius: 2.5px;
+      display: inline-block;
+      height: 5px;
+      margin: 3px;
+      padding: 0;
+      transition: all .2s linear;
+      width: 20px;
     }
+
     .splide__pagination__page.is-active {
       background-color: #ff6a00 !important;
       width: 6px;
     }
-    
+
+    .splide__pagination__page:hover {
+      background-color: transparent !important;
+      border-color: #ff6a00;
+      border-width: 0.5rem;
+      border-radius: 9999px;
+      border-style: solid;
+    }
+
     .splide__arrow svg {
       fill: #ff6a00 !important;
       justify-content: center;
       margin: 0 0px 0 -12px;
     }
-    
+
     .splide__arrow {
       background: transparent;
       border: 0;
@@ -1154,32 +1267,42 @@ a {
       transform: translateY(-50%);
       z-index: 1;
     }
-    .splide__list {
+
+    .splide__list.is-active {
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       display: -ms-flexbox;
       display: flex;
       height: 100%;
-      margin: -100px 0 -100px 0!important;
-      padding: 0!important;
+      margin: -100px 0 -100px 0 !important;
+      padding: 0 !important;
       transform-style: preserve-3d;
-  }
+    }
 
-  /* .splide__pagination__page.is-active {
-    background: #ccc;
-    border: 0;
-    border-radius: 2.5px;
-    display: inline-block;
-    height: 5px;
-    margin: 3px;
-    padding: 0;
-    transition: all .2s linear;
-    width: 6px;
-} */
+    .splide.is-active {
+      padding: 0em;
+    }
 
+    .splide__slide {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      box-sizing: border-box;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      list-style-type: none !important;
+      margin: 0;
+      outline: none;
+      position: relative;
+      padding: inherit;
+    }
 
+    .splide__track {
+      overflow: hidden;
+      position: relative;
+      z-index: 0;
+      height: 40rem;
+    }
 
-  
   }
 }
 
