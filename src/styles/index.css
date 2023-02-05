@@ -181,7 +181,7 @@ a {
 }
 
 .bg-planta {
-  background: url(../assets/background/bg_planta.png) center no-repeat;
+  background: url(../assets/background/bg_planta.png) center right no-repeat;
   background-size: cover;
 }
 
@@ -281,7 +281,7 @@ a {
 }
 
 .top-img {
-  margin-left: -1rem;
+  margin-left: 2rem;
 }
 
 .rio-claro {
@@ -450,7 +450,10 @@ a {
 .planta-attention {
   font-size: 1.4em;
 }
-
+.planta-img {
+  height: auto;
+  width: 70%;
+}
 .img-planta {
   width: 100%;
   padding: 0rem 40rem 0rem 0rem;
