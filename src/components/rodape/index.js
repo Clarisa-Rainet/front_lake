@@ -50,13 +50,14 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento.
+          INCORPORAÇÃO REGISTRADA SOB Nº R.21 DA MATRÍCULA 7.729 DO 2º OFICIAL DE REGISTRO DE IMÓVEIS COMARCA RIO CLARO – ESTADO DE SÃO PAULO, NOS TERMOS DA LEI 4.591/64.
+              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento. */}
             </div>
           </div>
         </div>
         <div className="rodape-text">
-          Incorporação registrada sob nº R.21 da matrícula 7.729 do 2º Oficial de Registro de Imóveis Comarca Rio Claro – Estado de São Paulo, nos termos da Lei 4.591/64. Todas as condições comerciais poderão ser obtidas diretamente com os consultores imobiliários nos pontos de vendas. Imagens meramente ilustrativas.
+        Copywriting e desenvolvido por Huma Criativa 
         </div>
       </div>
       :
@@ -94,13 +95,15 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento.
+              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento. */}
+          INCORPORAÇÃO REGISTRADA SOB Nº R.21 DA MATRÍCULA 7.729 DO 2º OFICIAL DE REGISTRO DE IMÓVEIS COMARCA RIO CLARO – ESTADO DE SÃO PAULO, NOS TERMOS DA LEI 4.591/64.
             </div>
           </div>
         </div>
         <div className="rodape-text">
-          Incorporação registrada sob nº R.21 da matrícula 7.729 do 2º Oficial de Registro de Imóveis Comarca Rio Claro – Estado de São Paulo, nos termos da Lei 4.591/64. Todas as condições comerciais poderão ser obtidas diretamente com os consultores imobiliários nos pontos de vendas. Imagens meramente ilustrativas.
+          Copywriting e desenvolvido por Huma Criativa 
+
         </div>
       </div>
   )

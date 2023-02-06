@@ -22,7 +22,7 @@ export default function Page(props) {
     { foto: elevadores, descricao: '3 Elevadores por Torre' },
     { foto: localizacao, descricao: 'localização privilegiada' },
     { foto: churrasqueira, descricao: 'varanda com churrasqueira' },
-    { foto: arCondicionado, descricao: 'suporta até 4 pontos de ar-condicionado' },
+    { foto: arCondicionado, descricao: 'suporte para até 4 pontos de ar-condicionado' },
     { foto: planta, descricao: 'planta adaptável' },
   ]
 
@@ -80,7 +80,7 @@ export default function Page(props) {
                 <div className="diferencial-item">
                   <img src={arCondicionado} className="diferencial-box" />
                   <div className="flex diferencial-text">
-                    suporta até 4 pontos de<br /> ar-condicionado
+                    suporte para até 4 pontos de<br /> ar-condicionado
                   </div>
                 </div>
               </div>
@@ -143,10 +143,10 @@ export default function Page(props) {
                   </div>
                 </div>
 
-                <div className="diferencial-item ml-14">
+                <div className="diferencial-item ml-24">
                   <img src={arCondicionado} className="diferencial-box1" />
                   <div className="flex diferencial-text">
-                    suporta até 4 pontos <br />de ar-condicionado
+                    suporte para até 4 pontos <br />de ar-condicionado
                   </div>
                 </div>
 

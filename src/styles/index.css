@@ -380,6 +380,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   font-family: Montserrat-Medium;
+  margin: 0px 6px;
 }
 
 .planta {
@@ -450,10 +451,12 @@ a {
 .planta-attention {
   font-size: 1.4em;
 }
+
 .planta-img {
   height: auto;
   width: 70%;
 }
+
 .img-planta {
   width: 100%;
   padding: 0rem 40rem 0rem 0rem;
@@ -501,7 +504,6 @@ a {
   line-height: 100%;
   color: white;
   text-align: center;
-  text-transform: uppercase;
   font-family: "Montserrat-Medium";
   padding-top: 10px;
   padding-bottom: 20px;
@@ -955,10 +957,10 @@ a {
     .text-topo {
       color: #002f65;
       text-transform: uppercase;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       font-family: Montserrat-Bold;
       text-align: center;
-      padding: 4rem 0rem 2rem 0rem;
+      padding: 4rem 0rem 2rem 2rem;
     }
 
     .topo-text {
@@ -973,9 +975,13 @@ a {
       right: 690px
     }
 
+    .top-img {
+      margin-left: 0rem;
+    }
+
     .img-topo {
       width: 70%;
-      margin-left: 3rem;
+      margin-left: 3.5rem;
     }
 
     .img-logo {
@@ -987,6 +993,7 @@ a {
 
     .rio-claro {
       width: 70%;
+      margin-left: 1rem;
     }
 
     .text-descricao {
@@ -1066,7 +1073,7 @@ a {
       text-align: center;
       text-transform: uppercase;
       font-family: Montserrat-Medium;
-      margin: 0px;
+      margin: 0px 4px;
     }
 
     .text-fotos {
@@ -1158,8 +1165,8 @@ a {
     }
 
     .text-mapa {
-      padding-top: 10rem;
-      padding-bottom: 12px;
+      padding-top: 12rem;
+      padding-bottom: 20px;
       width: 18rem;
     }
 
@@ -1303,7 +1310,7 @@ a {
       overflow: hidden;
       position: relative;
       z-index: 0;
-      height: 40rem;
+      height: 26rem;
     }
 
   }

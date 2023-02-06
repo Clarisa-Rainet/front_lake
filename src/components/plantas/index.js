@@ -51,39 +51,39 @@ export default function Page(props) {
             </div>
           </div>
           <div className="leading-relaxed planta-text">
-            Apartamento com sala de estar | jantar, cozinha,
-            lavanderia, e 3 dormitórios sendo 1 suíte.
+            Apartamento com sala de estar e jantar, cozinha, área de serviço
+            <br/> e 3 dormitórios sendo 1 suíte..
           </div>
         </div>
-        <div className="planta">
+        {/* <div className="planta">
           <div className="flex">
             <img src={planta} className="flex img-planta" />
           </div>
-        </div>
-          {/* <div className="planta">
-            <Splide
-              className="splide-badges col-12"
-              options={{
-                rewind: true,
-                width: 'auto',
-                height: '100%',
-                gap: '0rem',
-                perPage: 1,
-                pagination: true,
-                arrows: false,
-              }}
-            >
-              {arrayFotos.map(el => { return (renderImg(el)) })}
+        </div> */}
+        <div className="planta">
+          <Splide
+            className="splide-badges col-12"
+            options={{
+              rewind: true,
+              width: 'auto',
+              height: '100%',
+              gap: '0rem',
+              perPage: 1,
+              pagination: true,
+              arrows: false,
+            }}
+          >
+            {arrayFotos.map(el => { return (renderImg(el)) })}
 
-            </Splide>
-          </div> */}
+          </Splide>
+        </div>
         <div className="flex">
-            <a
-              target="_blank"
-              href="https://api.whatsapp.com/send?phone=5519996965525" >
-              <img src={ctaVisite} className="flex planta-img" />
-            </a>
-          </div>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5519996965525" >
+            <img src={ctaVisite} className="flex planta-img" />
+          </a>
+        </div>
       </div>
 
       :
@@ -94,8 +94,8 @@ export default function Page(props) {
               INFRAESTRUTURA COMPLETA
             </div>
             <div className="planta-text">
-              Apartamento com sala de estar | jantar, cozinha,
-              lavanderia, e 3 dormitórios<br/> sendo 1 suíte.
+              Apartamento com sala de estar e jantar, cozinha, área de serviço 
+              <br/>e 3 dormitórios sendo 1 suíte.
             </div>
           </div>
           <div className="flex">

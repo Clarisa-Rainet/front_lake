@@ -29,7 +29,7 @@ export default function Page(props) {
                 <div className="flex-auto mapa-text absolute">
                   O condomínio oferece lazer para
                   crianças e adultos, pensando na
-                  qualidade de vida de todos. Academia,
+                  qualidade de vida de todos. Conta com a academia,
                   salão de jogos, salão de festas, quadra
                   poliesportiva, churrasqueiras, saunas
                   e piscinas.
@@ -68,11 +68,11 @@ export default function Page(props) {
                   <a
                     className="noHover"
                     target="_blank"
-                    href='https://www.google.com/maps/place/R.+Tr%C3%AAs,+Santa+Gertrudes+-+SP,+13510-000/@-22.4486834,-47.5463204,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7d0bc1f50b67b:0x9443b97a3819e661!8m2!3d-22.4486834!4d-47.5441317!16s%2Fg%2F11clylnwxy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                    href='https://www.google.com/maps/place/Front+Lake+Condominium+Club/@-22.3915143,-47.5687381,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7db08e2a18221:0xd36114b5dcc4289e!8m2!3d-22.3915193!4d-47.5665494!16s%2Fg%2F11g0h_16gs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
                     <img src={mapa} className="mapa pt-6" />
                   </a>
                   <div className="mapa-address pt-6">
-                    rua 03, nº 3246 - vila operária - rio claro | sp  <br />
+                    Rua 03, nº 3246, Vila Operária, Rio Claro - SP  <br />
                   </div>
                 </div>
 
@@ -99,7 +99,7 @@ export default function Page(props) {
                 <div className="flex-auto mapa-text absolute">
                   O condomínio oferece lazer para
                   crianças e adultos, pensando na
-                  qualidade de vida de todos. Academia,
+                  qualidade de vida de todos. Conta com a academia,
                   salão de jogos, salão de festas, quadra
                   poliesportiva, churrasqueiras, saunas
                   e piscinas.
@@ -113,11 +113,11 @@ export default function Page(props) {
                   <a
                     className="noHover"
                     target="_blank"
-                    href='https://www.google.com/maps/place/R.+Tr%C3%AAs,+Santa+Gertrudes+-+SP,+13510-000/@-22.4486834,-47.5463204,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7d0bc1f50b67b:0x9443b97a3819e661!8m2!3d-22.4486834!4d-47.5441317!16s%2Fg%2F11clylnwxy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                    href='https://www.google.com/maps/place/Front+Lake+Condominium+Club/@-22.3915143,-47.5687381,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7db08e2a18221:0xd36114b5dcc4289e!8m2!3d-22.3915193!4d-47.5665494!16s%2Fg%2F11g0h_16gs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
                     <img src={mapa} className="mapa px-6" />
                   </a>
                   <div className="mapa-address">
-                    rua 03, nº 3246 - vila operária - rio claro | sp  <br />
+                    Rua 03, nº 3246, Vila Operária, Rio Claro - SP  <br />
                   </div>
                 </div>
 
