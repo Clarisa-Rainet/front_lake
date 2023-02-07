@@ -1098,7 +1098,12 @@ a {
       margin-top: 0rem;
       margin-bottom: 0rem;
       padding: 0 1rem;
+      height: 26rem;
+
     }
+.planta .splide.is-active {
+  height: 26rem;
+}
 
     .planta-img {
       height: auto;
