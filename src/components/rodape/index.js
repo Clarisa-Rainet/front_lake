@@ -50,15 +50,22 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-          INCORPORAÇÃO REGISTRADA SOB Nº R.21 DA MATRÍCULA 7.729 DO 2º OFICIAL DE REGISTRO DE IMÓVEIS COMARCA RIO CLARO – ESTADO DE SÃO PAULO, NOS TERMOS DA LEI 4.591/64.
-              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento. */}
+              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento.
             </div>
           </div>
         </div>
-        <div className="rodape-text">
-        Copywriting e desenvolvido por Huma Criativa 
+
+        <div className="text-rodape">
+          INCORPORAÇÃO REGISTRADA SOB Nº R.21 DA MATRÍCULA 7.729 DO 2º OFICIAL DE REGISTRO DE IMÓVEIS COMARCA RIO CLARO – ESTADO DE SÃO PAULO, NOS TERMOS DA LEI 4.591/64.
         </div>
+        <div className="flex line-blue"></div>
+        <a className="rodape-text"
+          href="https://www.instagram.com/humacriativo.mkt/"
+          target="_blank"
+          rel="noreferrer">
+          Copywriting e desenvolvido por Huma Criativa
+        </a>
       </div>
       :
       <div className="flex flex-col">
@@ -95,16 +102,22 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento. */}
-          INCORPORAÇÃO REGISTRADA SOB Nº R.21 DA MATRÍCULA 7.729 DO 2º OFICIAL DE REGISTRO DE IMÓVEIS COMARCA RIO CLARO – ESTADO DE SÃO PAULO, NOS TERMOS DA LEI 4.591/64.
+              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento.
             </div>
           </div>
         </div>
-        <div className="rodape-text">
-          Copywriting e desenvolvido por Huma Criativa 
 
+        <div className="text-rodape">
+          INCORPORAÇÃO REGISTRADA SOB Nº R.21 DA MATRÍCULA 7.729 DO 2º OFICIAL DE REGISTRO DE IMÓVEIS COMARCA RIO CLARO – ESTADO DE SÃO PAULO, NOS TERMOS DA LEI 4.591/64.
         </div>
+        <div className="flex line-blue"></div>
+        <a className="rodape-text"
+          href="https://www.instagram.com/humacriativo.mkt/"
+          target="_blank"
+          rel="noreferrer">
+          Copywriting e desenvolvido por Huma Criativa
+        </a>
       </div>
   )
 }
