@@ -423,6 +423,7 @@ a {
   font-family: Montserrat-Medium;
   padding: 1rem 15rem;
 }
+
 .text-rodape {
   font-size: 0.75em;
   color: #061927;
@@ -431,6 +432,7 @@ a {
   font-family: Montserrat-Medium;
   padding: 1rem 20rem 0rem 20rem;
 }
+
 .box-planta {
   background-color: #f0f0f0;
   border-radius: 3rem;
@@ -446,6 +448,7 @@ a {
   width: 55rem;
   margin: auto;
 }
+
 .line-blue {
   padding: 20px 15px;
   border-bottom-style: solid;
@@ -454,6 +457,7 @@ a {
   width: 55rem;
   margin: auto;
 }
+
 .planta-info {
   font-size: 2em;
 }
@@ -961,10 +965,11 @@ a {
     .rodape-text {
       padding: 1rem 1rem;
     }
+
     .text-rodape {
       padding: 1rem 1rem;
     }
-  
+
     .definicao {
       padding: 2rem 2rem 0rem 2rem;
       justify-content: center;
@@ -1118,9 +1123,10 @@ a {
       height: 26rem;
 
     }
-.planta .splide.is-active {
-  height: 26rem;
-}
+
+    .planta .splide.is-active {
+      height: 26rem;
+    }
 
     .planta-img {
       height: auto;
@@ -1337,6 +1343,18 @@ a {
 
   }
 }
+
+
+@media (max-width: 360px) {
+
+.text-mapa {
+  padding-top: 16rem;
+  padding-bottom: 20px;
+  width: 18rem;
+}
+
+}
+
 
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {
